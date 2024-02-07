@@ -35,4 +35,7 @@ body{
   margin-left: 13%;
   background: linear-gradient(45deg,cornflowerblue,#88c3eb);
 }
-
+.a7:hover{
+  background: #e639c9;
+  cursor: pointer;
+}
