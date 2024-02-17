@@ -13,13 +13,13 @@ public class guessingnumber {
          }
          counter--;
          if (guessenumber > userinput) {
-            System.out.println("your number is less " + "you have " + counter +" "+ "chances left");
+            System.out.println("your number is big " + "you have " + counter +" "+ "chances left");
          
          }
          else if( guessenumber < userinput) {
-         System.out.println("your number is big " + "you have " + counter +" "+  "chances left");
+         System.out.println("your number is less " + "you have " + counter +" "+  "chances left");
          }
-         else if( guessenumber == userinput) {
+         else if( guessenumber == userinput) { //== compare for values//
             System.out.println("congrats you won ");
             break;
          }
