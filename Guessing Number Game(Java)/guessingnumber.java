@@ -23,6 +23,6 @@ public class guessingnumber {
             System.out.println("congrats you won ");
             break;
          }
-      }
+      } dev.close();
     }
 }
