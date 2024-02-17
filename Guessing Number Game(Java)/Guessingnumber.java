@@ -1,5 +1,5 @@
 import java.util.*;
-public class Guessingnumber {
+class Guessingnumber {
     public static void main(String[] args) {
         Scanner dev = new Scanner(System.in);
       int guessenumber = 56;
