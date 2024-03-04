@@ -1,0 +1,38 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+height: 100vh;
+width: 100vw;
+background: linear-gradient(to right,#5ae02d,#3cafe8,#843ce8,#eb790e);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn{
+  position: relative;
+  height: 130px;
+  width: 300px;
+  background-color: #eb0e54;
+  border-radius: 100px;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  background-color: #843ce8;
+  top: 50%;
+  left: 14px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: 0.2s ease-in;
+}
+.btn:active::before{
+  left: calc(100% - 110px - 14px);
+}
+.btn:hover::before{
+cursor: pointer;
+}
