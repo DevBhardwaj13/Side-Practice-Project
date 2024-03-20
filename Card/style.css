@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to left,#4098e6,#9263d4,#c2386b);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 500px;
+    width: 330px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.lake{
+    margin: 2px;
+    height: 200px;
+    width: 325px;
+    border-radius: 7px;
+}
+.capsules span{
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 4px;
+}
+.capsules{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.heading{
+    margin: 10px 0px 0px 10px;
+}
+.text{
+    margin: 10px 0px 0px 10px;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #a7cbea;
+    color: #1c88e6;
+}
