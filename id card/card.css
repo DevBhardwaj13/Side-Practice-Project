@@ -44,6 +44,13 @@ margin-left: 75px;
 }
 .barcode{
     margin-top: 20px;
-    width: 300px;
+    width: 250px;
+    height: auto;
     object-fit: cover;
+}
+.bar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
